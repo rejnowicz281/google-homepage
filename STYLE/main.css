@@ -3,6 +3,52 @@ body{
    font-size: 0.8em;
    color: #000000d2;
 } 
+a{
+   color: inherit;
+   text-decoration: none;
+}
+header{
+   height: 70px;
+}
+nav{
+   width: 98%;
+   height: 50%;
+   padding-top: 25px;
+   margin-left:auto;
+   margin-right:auto;
+}
+#nav_float_left{
+   float:left;
+}
+#nav_float_right{
+   float:right;
+   position:relative;
+   bottom:10px;
+}
+nav a{
+   margin: 9.5px;
+}
+nav a:hover{
+   text-decoration: underline;
+}
+#apps{
+   font-size: 2em;
+}
+#apps:hover{
+   text-decoration:none;
+}
+#sign_in_link{
+   display: inline-block;
+   border-style:none;
+   font-weight:bold;
+   border-radius: 3px;
+   background-color: #4e71cf;
+   color:white;
+   padding: 10px 12px 10px 12px;
+}
+#sign_in_link:hover{
+   text-decoration:none;
+}
 #searchbar_section{
    margin-left:auto;
    margin-right:auto;
@@ -33,11 +79,12 @@ body{
 .submit_button{
    background-color:#ecd7d7;
    border-style: solid;
-   border-radius: 2px;
+   border-radius: 3px;
    border-width: 1px;
    padding: 10px;
    width: 120px;
+   color: #000000d2
 }
 .submit_button:hover{
-   border-width: 2px;
+   background-color: #b8b6b6ad;
 }
